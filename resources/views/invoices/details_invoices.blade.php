@@ -342,7 +342,7 @@
     <!-- Internal Prism js-->
     <script src="{{ URL::asset('assets/plugins/prism/prism.js') }}"></script>
 
-    {{-- <script>
+    <script>
         $('#delete_file').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)
             var id_file = button.data('id_file')
@@ -364,7 +364,7 @@
             $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
         });
 
-    </script> --}}
+    </script>
 
 @endsection
 
